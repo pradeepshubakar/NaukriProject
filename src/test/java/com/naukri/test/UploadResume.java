@@ -14,7 +14,7 @@ import com.naukri.pom.LoginPage;
 
 public class UploadResume extends BaseClass {
 @Test
-public void testUploadResume() throws IOException {
+public void testUploadResume() throws IOException, InterruptedException {
 	HomePage h=new HomePage(driver);
 	LoginPage l=new LoginPage(driver);
 	FileLib f=new FileLib();
@@ -30,9 +30,10 @@ public void testUploadResume() throws IOException {
 	File relPath=new File("./src/test/resources/data/pradeep resume .docx");
 	String absPath = relPath.getAbsolutePath();
 	h.getAttachCv().sendKeys(absPath);
+	Thread.sleep(3000);
 	w.actionsMoveToElement(driver.findElement(By.xpath("//div[.='My Naukri']")));
 	h.clickOnLogout();
-	
+	driver.quit();
 	
 }
 
