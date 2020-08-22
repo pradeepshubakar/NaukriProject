@@ -1,4 +1,4 @@
-username bspradee@gmail.com
-password shantha@123
+username amithakanya@gmail.com
+password Jovitha@3103
 url https://www.naukri.com/
 browser chrome

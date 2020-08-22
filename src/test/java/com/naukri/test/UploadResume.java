@@ -27,7 +27,7 @@ public void testUploadResume() throws IOException, InterruptedException {
 	l.clickLoginButton();
 	h.clickNameLink();
 	h.clickUpdateLink();
-	File relPath=new File("./src/test/resources/data/pradeep resume .docx");
+	File relPath=new File("./src/test/resources/data/Amitha_Resume.docx");
 	String absPath = relPath.getAbsolutePath();
 	h.getAttachCv().sendKeys(absPath);
 	Thread.sleep(3000);

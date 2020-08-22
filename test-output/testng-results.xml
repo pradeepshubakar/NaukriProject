@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="20055" started-at="2020-04-22T08:56:33Z" finished-at="2020-04-22T08:56:53Z">
+  <suite name="Default suite" duration-ms="28188" started-at="2020-08-22T09:00:18Z" finished-at="2020-08-22T09:00:47Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="20055" started-at="2020-04-22T08:56:33Z" finished-at="2020-04-22T08:56:53Z">
+    <test name="Default test" duration-ms="28188" started-at="2020-08-22T09:00:18Z" finished-at="2020-08-22T09:00:47Z">
       <class name="com.naukri.test.UploadResume">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.naukri.test.UploadResume@7dc7cbad]" name="launchBrowser" is-config="true" duration-ms="5102" started-at="2020-04-22T14:26:33Z" finished-at="2020-04-22T14:26:38Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.naukri.test.UploadResume@2a2d45ba]" name="launchBrowser" is-config="true" duration-ms="4964" started-at="2020-08-22T14:30:18Z" finished-at="2020-08-22T14:30:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="testUploadResume()[pri:0, instance:com.naukri.test.UploadResume@7dc7cbad]" name="testUploadResume" duration-ms="14925" started-at="2020-04-22T14:26:38Z" finished-at="2020-04-22T14:26:53Z">
+        <test-method status="PASS" signature="testUploadResume()[pri:0, instance:com.naukri.test.UploadResume@2a2d45ba]" name="testUploadResume" duration-ms="23197" started-at="2020-08-22T14:30:23Z" finished-at="2020-08-22T14:30:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUploadResume -->
       </class> <!-- com.naukri.test.UploadResume -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
