@@ -33,6 +33,7 @@ public void testUploadResume() throws IOException, InterruptedException {
 	Thread.sleep(3000);
 	w.actionsMoveToElement(driver.findElement(By.xpath("//div[.='My Naukri']")));
 	h.clickOnLogout();
+	System.out.println("Resume uploaded successfully...");
 	driver.quit();
 	
 }
